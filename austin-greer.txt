@@ -1,0 +1,107 @@
+     Codepen link:   https://codepen.io/austingreer/pen/MWaVRWK
+    
+    1. What is Semantic HTML? 
+            HTML tags that have meaning. 
+    2. What is HTML used for? 
+            To structure web pages.
+    3. What is an attribute and where do we put it? 
+            Attributes provide us with more information about an element and is put at the beginning of a tag. 
+            E.X.: an href attribute provides the specific link in an anchor tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+            The h1 tag is used to describe the most important heading on a webpage. Because of that purpose, only one is to be used per webpage.
+    5. Name two tags that have required attributes
+            <a>, <img>
+    6. What do we put in the head of our HTML document? 
+
+    7. What is an id? 
+            A global attribute that is used to specify an id for an element that you can style in CSS. It is always unique to that element.
+    8. What elements can I add an id to? 
+            Any elements.
+    9. How many times can I use the same id on a page? 
+            Only once. 
+    10. What is a class? 
+            A class is a global attribute that specifies the classnames for elements that you can then use to style in CSS.
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? 
+            As many times as you would like.
+    13. How do I get my link to open in a new tab?
+            target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+            Used when an image cannot be displayed.
+    15. How do I reference an id?
+            With a #
+    16. What is the difference between a section and a div
+            Section is semantic, div is presentational.
+    17. What is CSS used for? 
+            Used for styling web pages.
+    18. How to we select an element? Example - every h2 on the page
+            h2 {
+
+            }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            A class can apply to multiple elements while an id can only apply to one. id also has more specificity than class.
+            You can use an id to style a header or footer of a web page and then use the class to style multiple paragraphs, headings, links, buttons.
+    20. How do we select classes in CSS?
+            With a period. 
+            E.X.:
+            .class {
+
+            }
+    21. How do we select a p element with a single class of “human””?
+            .human p {
+
+            }
+    22. What is a parent child selector? When would this be useful? 
+            A selector that selects elements within a specific parent. 
+            This is useful when there is a specific element you want to style but don't want to change elements with different parents.
+    23. How do you select all links within a div with the class of sidebar?
+            .sidebar div {
+
+            }
+    24. What is a pseudo selector?
+            pseudo selectors are used when you may not have a set amount of elements, but want to style them differently. They style a specific state of an element.
+            They carry the same specificity weight as classes.
+    25. What do we use the change the spacing between lines?
+            We use the property line-height.
+    26. What do we use to change the spacing between letters?
+            Use the property letter-spacing 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            Use the propery text-transform. 
+            If you want the text to be lowercase, it will have the value of lowercase.
+            If you want the text to be capitalized, use the value of uppercase. 
+    28. How do I add a 1px border around my div that is dotted and black?
+            div {
+                border: 1px dotted black; 
+            }
+    29. How do I select everything on the page? 
+        * {
+
+        }
+    30. How do I write a comment in CSS?
+            /*  to write a commit, you begin with a "/*" and end with a "*/"    */
+    31. How do I find out what file I am in, when I am using the command line? 
+            It tells you on the command line.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+            ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            rm <file> 
+            It does not ask you if you are sure. It just permanetly deletes the file.
+    34. Why should I use version control? 
+            It keeps track of all the changes made on a file and allows us to work with other members of our team on the same project.
+    35. How often should I commit to github?
+            As often as you make changes to the documents. 
+    36. What is the command we would use to push our repo up to github? 
+            git push 
+    37. Walk me through Lambda's git flow. 
+            You fork the repo from Lambda to your github.
+            Add TL as collaborator.
+            clone the repo.
+            In git bash type git clone then paste the repo. 
+            cd into the repo. 
+            Afterwards, you need to change the branch. It will currently be on master. To do so you do this: git checkout -b 'firstName-lastName'
+            Now, you will need to push your branch onto github. To do that, you will type this: git push -u origin firstName-lastName
+            Once your branch is on github, you will push all of your work to that branch. You will do the usual process of adding, committing and pushing to your branch.
+            Once you have pushed your work, you will get on github and make a pull request.
+            In the pull request, your branch will be the base.
+            Add TL as reviewer.
+            TL will count the work as done when he merges it back into master.
