@@ -12,7 +12,7 @@
     5. Name two tags that have required attributes
             <a>, <img>
     6. What do we put in the head of our HTML document? 
-
+                You can put the title of a document, script, meta information, and styles in a head element.
     7. What is an id? 
             A global attribute that is used to specify an id for an element that you can style in CSS. It is always unique to that element.
     8. What elements can I add an id to? 
@@ -22,6 +22,7 @@
     10. What is a class? 
             A class is a global attribute that specifies the classnames for elements that you can then use to style in CSS.
     11. What elements can I add a class to? 
+                Any element.
     12. How many times can I use the same class on a page? 
             As many times as you would like.
     13. How do I get my link to open in a new tab?
