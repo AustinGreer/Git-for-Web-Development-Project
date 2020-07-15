@@ -187,17 +187,38 @@ Stretch Questions
 
     1. What is the difference between an inline element and a block element?
 
+        Block level element always starts on a new line and takes up the full width available.
+        Inline element doesn't start on a new line and only takes up as much width as necessary.
 
     2. What happens when an element is positioned absolutely? 
+
+        The element will no longer exist in the normal document layout flow. It sits in its own layer separate from everything else.
 
 
     3. How do I make an element take up only the amount of space it needs but also have 
     the ability to give it a width? 
 
+        You use the property "box-sizing" and give it the value "border-box"
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline 
     by default and 1 element that is display inline-block by default
 
-
+        3 elements that are display block by default:
+            1.) <p>
+            2.) <div>
+            3.) <nav>
+        2 elements that are display inline by default: 
+            1.)<span>
+            2.)<img>
+        1 element that is display inline-block by default:
+            <button>
     5. In your own words, explain the box model. What is the "fix" for the box model, 
-    in other words, how do we make all elements respect the width we've given them? 
+    in other words, how do we make all elements respect the width we've given them?
+
+        The box model is the idea that every element on a webpage can operate as a box. It has four components:
+            1.) Content (you edit this with width and height properties)
+            2.) padding (space between content and border)
+            3.) border
+            4.) margin (space between border and outside)
+        The fix for the box model is to use box-sizing: border-box in your univeral selector. 
+        This makes the elements respect the width that you give them. 
